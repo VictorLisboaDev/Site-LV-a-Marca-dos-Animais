@@ -2,13 +2,14 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>L&V · A Marca dos Animais</title>
     
     <!-- Meta tags para SEO -->
     <meta name="description" content="Ateliê de costura especializado em colares de uso veterinário para cães e gatos. Alternativa confortável ao cone tradicional.">
     <meta name="keywords" content="colar veterinário, cone alternativo, pós-cirúrgico pet, colar para cães, colar para gatos, ateliê de costura, Maracanaú">
     <meta name="author" content="L&V - A Marca dos Animais">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Favicon - Logo da loja como ícone da aba -->
     <link rel="icon" type="image/jpeg" href="logo LV marca.jpeg">
@@ -29,7 +30,6 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo-animal">
-                    <!-- Substituindo o emoji 🐾 pela logo -->
                     <img src="logo LV marca.jpeg" alt="L&V - A Marca dos Animais" class="logo-image logo-header">
                 </div>
                 <h1 class="main-title">L&V</h1>
@@ -40,6 +40,7 @@
                     <span class="divider-line"></span>
                 </div>
                 <p class="header-description">Ateliê de costura · Colares de uso veterinário</p>
+                <p class="price-update">📅 Tabela de preços atualizada - Março 2026</p>
             </div>
         </div>
         <div class="wave wave1"></div>
@@ -86,7 +87,6 @@
                     <div class="about-image">
                         <div class="image-frame">
                             <div class="image-placeholder">
-                                <!-- Substituindo o emoji 🐾 pela logo -->
                                 <img src="logo LV marca.jpeg" alt="L&V - A Marca dos Animais" class="logo-image logo-about">
                                 <span class="placeholder-text">L&V</span>
                             </div>
@@ -96,28 +96,49 @@
             </div>
         </section>
 
-        <!-- Seção Produtos / Tabela de Preços -->
+        <!-- Seção Produtos - Gatos -->
         <section class="section products-section">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">💰 Tabela de preços</span>
-                    <h2 class="section-title">Nossos tamanhos</h2>
-                    <p class="section-subtitle">Escolha o tamanho ideal para o seu pet</p>
+                    <span class="section-tag">🐱 Para Gatos</span>
+                    <h2 class="section-title">Colares para Felinos</h2>
+                    <p class="section-subtitle">Conforto e estilo para seu gato</p>
                 </div>
                 
-                <div class="pricing-grid" id="pricing-container">
+                <div class="pricing-grid" id="pricing-gatos-container">
                     <!-- Preenchido via JavaScript -->
                 </div>
+            </div>
+        </section>
+
+        <!-- Seção Produtos - Cães -->
+        <section class="section products-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">🐕 Para Cães</span>
+                    <h2 class="section-title">Colares para Caninos</h2>
+                    <p class="section-subtitle">Mobilidade e conforto para seu melhor amigo</p>
+                </div>
                 
-                <div class="pets-info">
-                    <div class="pets-info-card">
-                        <div class="pets-icons">
-                            <span class="pet-icon">🐕</span>
-                            <span class="pet-icon">🐈</span>
-                        </div>
-                        <p>Todos os tamanhos disponíveis para <strong>cães e gatos</strong></p>
-                        <p class="small-text">Consulte-nos para medidas especiais</p>
+                <div class="pricing-grid" id="pricing-caes-container">
+                    <!-- Preenchido via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Revenda -->
+        <section class="section resale-section">
+            <div class="container">
+                <div class="resale-card">
+                    <div class="resale-header">
+                        <span class="resale-icon">🏪</span>
+                        <h3>Preços para Revenda</h3>
                     </div>
+                    <p class="resale-description">Trabalhamos com preços especiais para petshops, clínicas veterinárias e revendedores. Entre em contato para saber mais sobre condições comerciais!</p>
+                    <a href="https://wa.me/5585992995569?text=Olá! Gostaria de informações sobre os preços para REVENDA. Podem me ajudar?" target="_blank" rel="noopener noreferrer" class="resale-button">
+                        <span>📞 Consultar Revenda</span>
+                        <span class="whatsapp-icon">💬</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -170,7 +191,7 @@
                         <div class="pix-key-container">
                             <span class="pix-key-label">Chave PIX:</span>
                             <div class="pix-key-wrapper">
-                                <code class="pix-key">(85) 992995569</code>
+                                <code class="pix-key">(85) 99299-5569</code>
                                 <button class="copy-button" id="copyPixButton" aria-label="Copiar chave PIX">
                                     <span class="copy-icon">📋</span>
                                 </button>
@@ -202,13 +223,13 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <!-- Substituindo o emoji 🐾 pela logo no footer -->
                     <img src="logo LV marca.jpeg" alt="L&V - A Marca dos Animais" class="logo-image logo-footer">
                     <span class="footer-brand">L&V · A Marca dos Animais</span>
                 </div>
                 
                 <div class="footer-copyright">
                     <p>© 2024 · Ateliê de costura · Todos os direitos reservados</p>
+                    <p class="price-note">📅 Tabela de preços atualizada em Março/2026</p>
                 </div>
                 
                 <div class="footer-credit">
@@ -221,7 +242,6 @@
     <!-- Atendente Virtual Lu -->
     <div class="chat-container" id="chatContainer">
         <button class="chat-toggle" id="chatToggle" aria-label="Abrir atendimento">
-            <!-- Substituindo o emoji 🐾 pela logo no botão do chat -->
             <img src="logo LV marca.jpeg" alt="L&V" class="logo-image logo-chat-toggle">
             <span class="toggle-text">Lu</span>
             <span class="notification-dot" id="notificationDot"></span>
@@ -231,7 +251,6 @@
             <div class="chat-header">
                 <div class="chat-header-info">
                     <div class="chat-avatar">
-                        <!-- Substituindo o emoji 👩‍🦰 pela logo no avatar do chat -->
                         <img src="logo LV marca.jpeg" alt="L&V" class="logo-image logo-chat-avatar">
                     </div>
                     <div class="chat-title">
